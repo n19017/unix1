@@ -1,1 +1,2 @@
-grep $USER /etc/passed
+grep $USER /etc/passw
+:
