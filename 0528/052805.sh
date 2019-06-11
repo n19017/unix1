@@ -1,1 +1,1 @@
-find /var -type f 2> /dev/null | xargs sudo du | grep "^0"
+sudo find /var -type f -empty
