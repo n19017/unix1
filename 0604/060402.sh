@@ -1,8 +1,8 @@
-for file in '$@'
+for file in "$0"
 do
-    if [ -f '$file' ]; then
-        du '$file'
+    if [ -f "$file" ]; then
+        du "$file"
     else
-        echo '${file}通常のファイルではありません'
+        echo "${file}通常のファイルではありません"
     fi
 done
