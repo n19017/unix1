@@ -3,6 +3,6 @@ do
     if [ -f '$file' ]; then
         du '$file'
     else
-        echo '通常のファイルではありません'
+        echo '${file}通常のファイルではありません'
     fi
 done
