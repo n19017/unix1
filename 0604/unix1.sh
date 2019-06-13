@@ -8,12 +8,11 @@ function cont(){
         exit
     fi
 }
-conf
 cd $HOME/rep/unix1
 
 git stataus
 
-while
+while :
 do
     echo "1)girtt add -i"
     echo '2)git comment'
